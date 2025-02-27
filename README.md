@@ -74,15 +74,16 @@ flutter pub get
 flutter pub run build_runner build
 ```
 
-4. Add your RapidAPI key in `lib/core/constants/api_constants.dart`:
-```dart
-const String RAPID_API_KEY = 'your_api_key_here';
+4. Add your RapidAPI key in `env.json`:
+```json
+rapidapiKey = 'your_api_key_here';
 ```
 
 5. Run the app:
 ```bash
 flutter run
 ```
+
 
 ## 📝 Project Structure
 
@@ -122,10 +123,6 @@ flutter run
 - File sharing
 - Network access
 
-## 🧪 Testing
-
-[Describe your testing approach and how to run tests]
-
 ## 📚 Dependencies
 
 Key dependencies used in this project:
@@ -154,3 +151,17 @@ dependencies:
 
 For any queries or suggestions, please reach out to:
 [dhruvkabariya1@gmail.com]
+
+## Screenshots
+
+### Light Theme
+![Light theme screenshot](./assets/light.jpg)
+
+### Dark Theme
+![Dark theme screenshot](./assets/dark.jpeg)
+
+## Video Tutorial
+
+Click the image below to watch the tutorial on YouTube:
+
+[![Video Tutorial](https://img.youtube.com/vi/0rP--2nr-ic/0.jpg)](https://www.youtube.com/shorts/0rP--2nr-ic)
